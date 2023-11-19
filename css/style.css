@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 1.1em;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+}
+header {
+    background-color: lavender;
+    text-align: center;
+}
+main {
+    background-color: rgba(47, 47, 48, 0.425);
+    border:  black solid 2px;
+
+}
+footer {
+    background-color: lavender;
+    padding: 10px 50px;
+}
+#about{
+    background-color: lightgray;
+    padding: 10px 50px;
+    text-align: center;
+}
+#articles {
+    background-color:lemonchiffon;
+    padding: 10px 50px;
+}
+p {
+    text-align: justify;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    margin-bottom: 20px;
+}
+h1 {
+    text-transform: uppercase;
+    color:rgb(43, 46, 45);
+    font-size: 2rem;
+    font-style: italic;
+}
+title {
+    font-size: 1.5rem;
+    text-decoration: overline;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+a:link{
+    color: rgb(207, 62, 62);
+    text-decoration: none;
+}
+
+a:active{
+    color: blue  ;
+}
+a:visited {
+    color: rgb(2, 48, 21);
+}
+a:hover {
+    color:black;
+    text-decoration: underline;
+}
+a:focus{
+    color: rgb(187, 187, 113);
+}
+p:lang(ru){
+    font-style: italic;
+}
+p:lang(en){
+    text-decoration: dashed;
+}
+
+ol li:nth-child(2n){
+    background-color:aquamarine ;
+}
+
+#about h2:after{
+    content: "*";
+    color: blue;
+    font-size: 12px;
+    margin-left: 15px;
+    text-decoration: none;
+}
+#about img{
+    border-radius: 50%;
+}
+
+#about .avatar{
+    border-radius: none;
+}
+.important-notice::before {
+    content: "Важно!";
+    display: inline-block;
+    background-color: #ff5733; /* Цвет фона */
+    color: #ffffff; /* Цвет текста */
+    padding: 5px 10px; /* Отступы внутри псевдоэлемента */
+    border: 2px solid #ff5733; /* Граница */
+    border-radius: 5px; /* Скругление углов */
+    margin-right: 10px; /* Отступ справа от текста */
+  }
+  a {
+    text-decoration: none;
+    color: #333; 
+}
+
+
+a:hover {
+    color: #ff0000; 
+}
+
+
+a:focus {
+    outline: 2px solid #0000ff; 
+}
+
+
+.main-menu-item {
+    background-color: #f0f0f0;
+}
+
+
+.main-menu-item:hover {
+    background-color: #c57474;
+}
+
+
+.main-menu-item:focus {
+    background-color: #f0f0f0;
+}
+
+.my-articles-link {
+    background-color: #612626;
+}
+
+
+.my-articles-link:hover {
+    background-color: #f0f0f0;
+
+}
+
+.my-articles-link:focus {
+    background-color: #3a1a1a;
+
+}
+
+.my-articles-list li:nth-child(even) {
+    background-color: #f0f0f0; 
+}
+
+.my-articles-list li:nth-child(odd) {
+    background-color: #ffffff; 
+}
+
+tr:nth-child(even) {
+    background-color: #8642da;
+}
+
+td:first-child {
+    width: 40%;
+}
+
+td:nth-child(3) {
+    text-align: left;
+}
+table {      
+    border-collapse: collapse;
+    border: 5px solid gray;
+}
+  
+td, th {
+    border: 2px solid black;
+}
+
+p.new:after { 
+    content: "- New!"; }
+p::first-line {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 90%; 
+    color: black; } 
+p::first-letter {
+    font-family: "Times New Roman", Times, serif; 
+    font-size: 200%; 
+    color: rgb(2, 2, 2);}
+
+
+
+    
+    
+
+
